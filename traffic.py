@@ -81,7 +81,7 @@ def get_model():
         # Flatten units
         tf.keras.layers.Flatten(input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)),
 
-        # Add an output layer with output units for all 10 digits
+        # Output Layer
         tf.keras.layers.Dense(NUM_CATEGORIES, activation="softmax")
     ])
 
