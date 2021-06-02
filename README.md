@@ -1,4 +1,4 @@
-#traffic-ai
+# traffic-ai
 
 ### Set Up
 `pip3 install -r requirements.txt`
@@ -40,3 +40,5 @@ I added a hidden layer `8 * NUM_CATEGORIES` nodes but the accuracy actually drop
 I found that increasing other parameters to get accuracy over 97-98% dramatically decreased performance so the cost seemed higher than the improvement.
 
 I also added dropout.
+
+[Project Details](https://cs50.harvard.edu/ai/2020/projects/5/traffic/)
